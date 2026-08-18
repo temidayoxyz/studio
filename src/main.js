@@ -73,7 +73,7 @@ export function renderFooter() {
             <span class="brand-mark">S</span>
             <span class="brand-name">Studio<sup>The Index</sup></span>
           </a>
-          <p class="footer-tag">The Autonomous Premium Web Studio — forty-nine independent sites, each with its own brand, design system and voice. Built, tested and live.</p>
+          <p class="footer-tag">The Autonomous Premium Web Studio — fifty independent sites, each with its own brand, design system and voice. Built, tested and live.</p>
         </div>
         <div class="footer-cols">
           <div class="footer-col">
@@ -93,7 +93,7 @@ export function renderFooter() {
           <div class="footer-col">
             <h4>Count</h4>
             <ul>
-              <li><span style="color:rgba(245,243,238,0.6)">49 sites · 240+ pages</span></li>
+              <li><span style="color:rgba(245,243,238,0.6)">50 sites · 240+ pages</span></li>
               <li><span style="color:rgba(245,243,238,0.6)">0 templates shared</span></li>
             </ul>
           </div>
@@ -179,6 +179,7 @@ export const PROJECTS = [
   { n: 47, name: 'Haven', niche: 'Community garden', accent: '#4E6B3A' },
   { n: 48, name: 'Rytme', niche: 'Music school & studios', accent: '#E8A020' },
   { n: 49, name: 'Sol', niche: 'Solar cooperative', accent: '#F5A623' },
+  { n: 50, name: 'Studio', niche: 'This index — fifty sites, zero templates', accent: '#C9A227' },
 ]
 
 export function renderIndex() {

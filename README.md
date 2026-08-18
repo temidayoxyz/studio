@@ -1,10 +1,10 @@
 # Studio — The Index
 
-The Autonomous Premium Web Studio's index — forty-nine independent sites, each with its own brand, design system and voice. Built, tested, deployed and verified live on GitHub Pages.
+The Autonomous Premium Web Studio's index — fifty independent sites, each with its own brand, design system and voice. Built, tested, deployed and verified live on GitHub Pages.
 
 ## Design
 
-- **Concept** — The gallery wall: one dark room, forty-nine framed worlds. Each card carries its project's own accent colour.
+- **Concept** — The gallery wall: one dark room, fifty framed worlds. Each card carries its project's own accent colour.
 - **Palette** — Gallery black `#0E0F12`, paper `#F5F3EE`, gold `#C9A227`, one accent per project.
 - **Typography** — Rozha One (display serif) + Gantari (body).
 - **Imagery** — None needed; the index is the imagery.
