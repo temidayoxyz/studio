@@ -1,55 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Studio — Fifty Web Sites, One Index</title>
-  <meta name="description" content="The full index of the Autonomous Premium Web Studio — fifty independent sites, each with its own brand, design system and voice, built and shipped." />
-  <meta property="og:title" content="Studio — Fifty Web Sites, One Index" />
-  <meta property="og:description" content="Fifty independent sites, each with its own brand, design system and voice." />
-  <meta property="og:image" content="/studio/og-image.svg" />
-  <link rel="icon" type="image/svg+xml" href="/studio/favicon.svg" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Studio — Fifty websites, no two alike</title>
+  <meta name="description" content="The index of Studio: fifty independent websites, each with its own name, palette, typography and voice. Built, tested and deployed separately — fifty out of fifty live." />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#f2efe7" />
+
+  <link rel="canonical" href="https://temidayoxyz.github.io/studio/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Studio — Fifty websites, no two alike" />
+  <meta property="og:description" content="Fifty brands, fifty palettes, fifty voices. One brief, one pipeline, nothing shared." />
+  <meta property="og:url" content="https://temidayoxyz.github.io/studio/" />
+  <meta property="og:image" content="https://temidayoxyz.github.io/studio/og.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Studio — Fifty websites, no two alike" />
+  <meta name="twitter:description" content="Fifty brands, fifty palettes, fifty voices. One brief, one pipeline, nothing shared." />
+  <meta name="twitter:image" content="https://temidayoxyz.github.io/studio/og.svg" />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/favicon.svg" />
+
+  <!-- render-blocking: discovered during the initial parse, so the first paint is styled -->
+  <link rel="stylesheet" href="/src/style.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Gantari:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Instrument+Serif&family=JetBrains+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400..700&family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Instrument+Serif&family=JetBrains+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400..700&family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap" />
+
+  <script type="module" src="/src/pages/index.js"></script>
 </head>
-<body>
-  <header id="site-header" data-page="index"></header>
+<body id="top">
+  <a class="skip" href="#index">Skip to the index</a>
+  <header id="site-header" class="site-header" data-page="index"></header>
 
   <main>
-    <!-- HERO -->
+    <!-- ── Hero ─────────────────────────────────────────────────────── -->
     <section class="hero">
-      <div class="hero-inner">
-        <p class="kicker">The Autonomous Premium Web Studio · 2026</p>
-        <h1>Fifty sites.<br /><em>Zero templates.</em></h1>
-        <p class="lede">One brief: build fifty independent websites, each with its own brand, its own design system, its own voice — and make every one of them real, tested and live. This is the index.</p>
-        <div class="hero-stats">
-          <div class="hs"><span class="hs-num">50</span><span>sites shipped</span></div>
-          <div class="hs"><span class="hs-num">4.9</span><span>avg pages per site</span></div>
-          <div class="hs"><span class="hs-num">0</span><span>shared templates</span></div>
-          <div class="hs"><span class="hs-num">100%</span><span>live on GitHub Pages</span></div>
+      <div class="shell">
+        <div class="hero-split">
+          <div class="hero-copy">
+            <p class="eyebrow">The index · 2026</p>
+            <h1>
+              <span class="mask-line"><span>Fifty websites.</span></span>
+              <span class="mask-line"><span><em>No two alike.</em></span></span>
+            </h1>
+          </div>
+          <div class="hero-aside">
+            <p class="lede">
+              One brief. Fifty brands, fifty palettes, fifty voices — each designed,
+              built, tested and deployed on its own. Nothing shared but the pipeline.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn--primary" href="#index">
+                Browse the index
+                <span class="btn-arrow" aria-hidden="true">↓</span>
+              </a>
+              <a class="btn btn--ghost" href="/studio/method.html">How it&rsquo;s made</a>
+            </div>
+          </div>
+        </div>
+
+        <ul class="hero-ledger">
+          <li class="ledger-cell">
+            <span class="ledger-num" data-count="50">50</span>
+            <span class="ledger-cap">websites shipped</span>
+          </li>
+          <li class="ledger-cell">
+            <span class="ledger-num" data-count="10">10</span>
+            <span class="ledger-cap">countries represented</span>
+          </li>
+          <li class="ledger-cell">
+            <span class="ledger-num" data-count="8">8</span>
+            <span class="ledger-cap">disciplines covered</span>
+          </li>
+          <li class="ledger-cell">
+            <span class="ledger-num" data-count="0">0</span>
+            <span class="ledger-cap">shared stylesheets</span>
+          </li>
+        </ul>
+
+        <div class="wall" id="wall">
+          <div class="wall-head">
+            <h2 class="wall-title">The wall</h2>
+            <p class="wall-note">One mark per project, sorted by hue</p>
+          </div>
+          <div class="wall-grid" id="wall-grid" role="group" aria-label="Fifty marks, sorted by colour — jump to a project"></div>
+          <div class="wall-foot">
+            <p class="wall-note" id="wall-count" aria-live="polite">50 marks</p>
+            <a class="btn btn--quiet" href="#index">All fifty <span aria-hidden="true">↓</span></a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- THE INDEX -->
-    <section class="index section">
-      <div class="section-head">
-        <p class="kicker">The index</p>
-        <h2>All fifty,<br />in one room.</h2>
+    <!-- ── Index ────────────────────────────────────────────────────── -->
+    <section class="index" id="index" aria-labelledby="index-title">
+      <div class="shell">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="eyebrow">The index</p>
+            <h2 id="index-title">Fifty, side by side.</h2>
+          </div>
+          <p class="lede">
+            Each plate is one project&rsquo;s own mark, set in its own face, in its own
+            colour. Search it, or filter by what the business actually does.
+          </p>
+        </div>
       </div>
-      <div class="card-grid" id="cardGrid" aria-label="All studio projects"></div>
+
+      <div class="toolbar" id="toolbar">
+        <div class="shell">
+          <div class="toolbar-row">
+            <div class="field search">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+                <circle cx="7.2" cy="7.2" r="4.2" /><path d="m10.4 10.4 3 3" />
+              </svg>
+              <label class="visually-hidden" for="search">Search the fifty projects</label>
+              <input id="search" type="search" placeholder="Search names, disciplines, places" autocomplete="off" spellcheck="false" />
+              <kbd aria-hidden="true">/</kbd>
+            </div>
+            <div class="select">
+              <span class="select-label">Sort</span>
+              <label class="visually-hidden" for="sort">Sort the index</label>
+              <select id="sort">
+                <option value="n">By number</option>
+                <option value="az">A–Z</option>
+                <option value="place">By place</option>
+              </select>
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M1 1.5 5 5.5 9 1.5" />
+              </svg>
+            </div>
+          </div>
+          <div class="toolbar-row">
+            <p class="count" id="result-count" role="status">50 projects</p>
+            <div class="chips" id="chips" role="group" aria-label="Filter by discipline"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shell">
+        <div class="grid" id="index-grid" aria-busy="true" aria-describedby="result-count"></div>
+      </div>
     </section>
 
-    <!-- ABOUT TEASE -->
-    <section class="cta section">
-      <h2>How the studio works.</h2>
-      <p>Every site was designed, built, tested and deployed as a complete project — brand, palette, typography, imagery, motion, and a voice that belongs to it alone.</p>
-      <a class="btn btn-ghost-invert" href="/studio/about.html">Read the method</a>
+    <!-- ── Closer ───────────────────────────────────────────────────── -->
+    <section class="section section--last">
+      <div class="shell">
+        <div class="closer" data-reveal>
+          <p class="eyebrow eyebrow--ink">The method</p>
+          <h2>One pipeline. Fifty different answers.</h2>
+          <p class="closer-lede">
+            The same four stages produced every site in the index — and none of them
+            came out looking like each other. Here is how that works.
+          </p>
+          <div class="closer-actions">
+            <a class="btn btn--light" href="/studio/method.html">
+              Read the method
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="btn btn--on-ink" href="https://github.com/temidayoxyz/studio" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer id="site-footer"></footer>
-  <script type="module" src="/src/pages/index.js"></script>
+  <footer id="site-footer" class="site-footer"></footer>
 </body>
 </html>

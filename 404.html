@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Not found — Studio</title>
+  <meta name="description" content="That page is not in the index. The fifty projects are." />
+  <meta name="robots" content="noindex" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#f2efe7" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="/src/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Instrument+Serif&family=JetBrains+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400..700&family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap" />
+  <script type="module" src="/src/pages/notfound.js"></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header" data-page="404"></header>
+
+  <main id="main">
+    <section class="shell nf">
+      <p class="nf-code">Error 404 · Not in the index</p>
+      <h1>This page doesn&rsquo;t exist. The fifty do.</h1>
+      <p class="nf-lede">
+        Whatever you asked for isn&rsquo;t here — but every project in the studio is, along
+        with the method that produced it.
+      </p>
+      <div class="nf-actions">
+        <a class="btn btn--primary" href="/studio/index.html">Go to the index</a>
+        <a class="btn btn--ghost" href="/studio/method.html">Read the method</a>
+      </div>
+      <div class="nf-wall">
+        <div class="wall" id="wall" hidden>
+          <div class="wall-head">
+            <h2 class="wall-title">The wall</h2>
+            <p class="wall-note">One mark per project, sorted by hue</p>
+          </div>
+          <div class="wall-grid" id="wall-grid" role="group" aria-label="Fifty marks, sorted by colour"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>
